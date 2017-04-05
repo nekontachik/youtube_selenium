@@ -33,7 +33,7 @@ public class YoutubeSearchPage extends BaseTest {
         results.get(index).findInnerSelector(".yt-lockup-title").click();
     }
 
-    public static void assertTitle(String title){
+    public static void assertTitle(String title) {
         getDriver().getTitle().equals(title);
     }
 
